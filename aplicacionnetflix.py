@@ -109,4 +109,5 @@ def menu():
         else:
             print("Opción no válida. Por favor, seleccione una opción del 1 al 6.")
 
-menu()
+if __name__ == "__main__":
+    menu()
